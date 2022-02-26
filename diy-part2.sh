@@ -12,3 +12,9 @@
 
 # Modify default IP
 #sed -i 's/192.168.1.1/192.168.50.5/g' package/base-files/files/bin/config_generate
+#minieap-gzhu
+git clone https://github.com/ysc3839/openwrt-minieap.git -b gzhu package/minieap
+git clone https://github.com/ysc3839/luci-proto-minieap.git package/luci-proto-minieap
+#smartdns
+git clone https://github.com/pymumu/openwrt-smartdns package/smartdns
+git clone -b lede https://github.com/pymumu/luci-app-smartdns.git package/luci-app-smartdns
